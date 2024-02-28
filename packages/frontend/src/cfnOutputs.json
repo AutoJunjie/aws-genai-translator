@@ -1,0 +1,21 @@
+{
+    "appHostedUrl": "",
+    "appStackId": "",
+    "appStackName": "",
+    "appWebsiteDistribution": "",
+    "appWebsiteS3Bucket": "",
+    "awsAppsyncGraphqlEndpoint": "",
+    "awsAppsyncId": "",
+    "awsCognitoIdentityPoolId": "",
+    "awsCognitoOauthDomain": "",
+    "awsCognitoOauthRedirectSignIn": "",
+    "awsCognitoOauthRedirectSignOut": "",
+    "awsReadableS3Bucket": "",
+    "awsRegion": "us-east-1",
+    "awsUserFilesS3Bucket": "",
+    "awsUserPoolsId": "",
+    "awsUserPoolsWebClientId": "",
+    "samlIdentifier": "",
+    "samlReplyUrl": "",
+    "ReactAppApiUrl":""
+}

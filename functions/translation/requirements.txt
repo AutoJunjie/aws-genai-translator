@@ -1,0 +1,4 @@
+opensearch-py
+boto3
+docx
+lxml
