@@ -4,7 +4,7 @@
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { API, Auth, Storage } from 'aws-amplify';
+//import { API, Auth, Storage } from 'aws-amplify';
 
 // CLOUDSCAPE DESIGN
 import "@cloudscape-design/global-styles/index.css"
@@ -23,8 +23,8 @@ import sortDataByKey from '../../util/sortDataByKey';
 import { formatJobNameId } from '../../util/formatJobNameId';
 import { formatTimestamp } from '../../util/formatTimestamp';
 // IMPORTS | GRAPHQL
-const features = require("../../features.json");
-let listJobs = null;
+//const features = require("../../features.json");
+//let listJobs = null;
 //if (features.translation) {
 //	listJobs = require('../../graphql/queries').translationListJobs
 //} 

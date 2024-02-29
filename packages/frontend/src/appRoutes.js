@@ -5,14 +5,14 @@
 // IMPORTS | ROUTING
 import { Routes, Route } from 'react-router-dom';
 // IMPORTS | ROUTING | PAGES
-import SignOut from './util/signOut';
-import Help from "./page/help/help";
+//import SignOut from './util/signOut';
+//import Help from "./page/help/help";
 import TranslationHistory from './page/translation/history';
 import TranslationNew from './page/translation/new';
-import ReadableHistory from './page/readable/history';
-import ReadableView from './page/readable/view';
+//import ReadableHistory from './page/readable/history';
+//import ReadableView from './page/readable/view';
 
-const features = require("./features.json");
+//const features = require("./features.json");
 
 export default function AppRoutes() {
 	return (

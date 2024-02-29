@@ -2,7 +2,8 @@
 // SPDX-License-Identifier: MIT-0
 
 // REACT
-import React, { useEffect, useState } from 'react';
+//import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import i18n from 'i18next';
 import { useNavigate } from 'react-router-dom';
@@ -12,7 +13,7 @@ import {
 	FcTodoList,
 } from 'react-icons/fc';
 // AMPLIFY
-import { Auth, API, Storage } from 'aws-amplify';
+//import { Auth, API, Storage } from 'aws-amplify';
 // CLOUDSCAPE DESIGN
 import "@cloudscape-design/global-styles/index.css"
 import {
@@ -32,8 +33,8 @@ import {
 // APP
 import { v4 as uuid } from 'uuid'; 
 
-const features = require("../../features.json");
-let createJob = null;
+//const features = require("../../features.json");
+//let createJob = null;
 //if (features.translation) {
 //	createJob = require('../../graphql/mutations').translationCreateJob
 //} 

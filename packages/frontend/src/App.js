@@ -3,10 +3,11 @@
 
 // IMPORTS
 // IMPORTS | REACT
-import { Suspense, useEffect, useState } from 'react';
+//import { Suspense, useEffect, useState } from 'react';
+import { Suspense } from 'react';
 import AppRoutes from './appRoutes';
 // IMPORTS | AMPLIFY
-import { Amplify, Auth, Hub } from "aws-amplify";
+//import { Amplify, Auth, Hub } from "aws-amplify";
 // import amplifyConfig from "./util/aws-exports";
 // IMPORTS | LANGUAGES
 import "./util/i18n";
