@@ -1,0 +1,21 @@
+# dependencies
+node_modules
+
+# sst
+.sst
+.build
+build
+
+# opennext
+.open-next
+
+# misc
+.DS_Store
+
+# local env files
+.env*.local
+
+# configs
+cfnOutputs.json
+
+
