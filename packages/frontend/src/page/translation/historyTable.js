@@ -92,6 +92,7 @@ export default function HistoryTable() {
 
 	/* formatTargets */
 	const formatTargets = (stringTargets) => {
+		console.log("***********stringTargets************")
 		console.log(stringTargets);
 		//const targets = JSON.parse(stringTargets)
 		const targets = stringTargets

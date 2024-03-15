@@ -4,7 +4,7 @@ import { API } from "./stacks/APIM";
 export default {
   config(_input) {
     return {
-      name: "ai-translator",
+      name: "genai-translator",
       region: "us-east-1",
     };
   },

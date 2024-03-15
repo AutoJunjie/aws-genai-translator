@@ -15,7 +15,7 @@
     "@tsconfig/node18": "^18.2.2",
     "aws-cdk-lib": "2.124.0",
     "constructs": "10.3.0",
-    "sst": "^2.40.3",
+    "sst": "^2.41.2",
     "typescript": "^5.3.3"
   },
   "workspaces": [

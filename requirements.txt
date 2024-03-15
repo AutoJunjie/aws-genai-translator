@@ -1,0 +1,3 @@
+boto3==1.34.50
+lxml
+python-docx
