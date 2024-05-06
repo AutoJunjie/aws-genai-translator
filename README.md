@@ -15,7 +15,7 @@
 Install the example.
 
 ```bash
-$ git clone https://github.com/AutoJunjie/aws-genai-translator.git
+git clone https://github.com/AutoJunjie/aws-genai-translator.git
 ```
 
 ## Commands
