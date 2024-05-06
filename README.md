@@ -2,6 +2,7 @@
 
 <img width="635" alt="image" src="https://github.com/AutoJunjie/aws-genai-translator/assets/38706868/cdd32846-97c2-4f9b-a3a2-bcd2a4a0966e">
 
+
 1. 用户通过前端触发API向s3申请Pre-sign URL并将文件通过URL上传到S3桶
 2. 上传完成后前端触发API创建翻译任务，Lambda接收到请求后在DDB创建任务
 3. DDB streaming触发Lambda进行翻译任务，任务可并发进行，默认3个worker：
