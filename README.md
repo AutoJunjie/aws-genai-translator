@@ -8,11 +8,6 @@
    - 拆分word文档，和prompt组合发送给AWS Bedrock Claude3进行翻译任务
     - 翻译完成，Lambda 将DDB对应条目修改状态为完成，最后组装成完整word文档存入s3，待用户从前端进行下载
  
-![image](https://github.com/AutoJunjie/aws-genai-translator/assets/38706868/8e1bcfa8-61a3-4c04-ac3c-4ed6cc142d6e)
-
-
-An example full-stack serverless React.js app created with SST.
-
 ## Getting Started
 
 [**Read the tutorial**](https://sst.dev/examples/how-to-create-a-reactjs-app-with-serverless.html)
