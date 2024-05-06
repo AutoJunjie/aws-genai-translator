@@ -5,8 +5,8 @@
 1. 用户通过前端触发API向s3申请Pre-sign URL并将文件通过URL上传到S3桶
 2. 上传完成后前端触发API创建翻译任务，Lambda接收到请求后在DDB创建任务
 3. DDB streaming触发Lambda进行翻译任务，任务可并发进行，默认3个worker：
-   - 拆分word文档，和prompt组合发送给AWS Bedrock Claude3进行翻译任务
-    - 翻译完成，Lambda 将DDB对应条目修改状态为完成，最后组装成完整word文档存入s3，待用户从前端进行下载
+- 拆分word文档，和prompt组合发送给AWS Bedrock Claude3进行翻译任务
+- 翻译完成，Lambda 将DDB对应条目修改状态为完成，最后组装成完整word文档存入s3，待用户从前端进行下载
  
 ## Getting Started
 
