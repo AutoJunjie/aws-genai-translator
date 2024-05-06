@@ -2,7 +2,6 @@
 
 <img width="635" alt="image" src="https://github.com/AutoJunjie/aws-genai-translator/assets/38706868/cdd32846-97c2-4f9b-a3a2-bcd2a4a0966e">
 
-
 1. 用户通过前端触发API向s3申请Pre-sign URL并将文件通过URL上传到S3桶
 2. 上传完成后前端触发API创建翻译任务，Lambda接收到请求后在DDB创建任务
 3. DDB streaming触发Lambda进行翻译任务，任务可并发进行，默认3个worker：
@@ -16,30 +15,18 @@
 Install the example.
 
 ```bash
-$ npx create-sst@latest --template=examples/react-app
-# Or with Yarn
-$ yarn create sst --template=examples/react-app
-# Or with PNPM
-$ pnpm create sst --template=examples/react-app
+$ git clone https://github.com/AutoJunjie/aws-genai-translator.git
 ```
 
 ## Commands
 
 ### `npm run dev`
 
-Starts the Live Lambda Development environment.
+Starts the Live Lambda Development environment. （本地起dev环境）
 
-### `npm run build`
+### `npx sst deploy --stage prod`
 
-Build your app and synthesize your stacks.
-
-### `npm run deploy [stack]`
-
-Deploy all your stacks to AWS. Or optionally deploy, a specific stack.
-
-### `npm run remove [stack]`
-
-Remove all your stacks and all of their resources from AWS. Or optionally removes, a specific stack.
+Deploy all your stacks to AWS. (正式在AWS里起部署)
 
 ## Documentation
 
